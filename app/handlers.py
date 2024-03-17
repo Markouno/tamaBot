@@ -15,7 +15,7 @@ async def cmd_start(message: Message):
 
 ### MAIN HANDLERS
 
-@router.message(Command('show')):
+@router.message(Command('show'))
 async def show_pet(message: Message):
     await message.reply_animation(animation='CgACAgIAAxkBAAMdZfbfLpMUqh0MSL4smTPSrSAjJWsAAg9JAAKTsqBL0PKobZYBOfY0BA')
     
